@@ -1,0 +1,52 @@
+.booking-form
+{
+	height:400px;
+	position: fixed;
+	padding: 20px;
+	top:100px;
+	left:100px;
+	width: 300px;
+	background-color: lightgray;
+}
+
+.dates
+{
+	width: 50%;
+	float: left;
+}
+
+.slider-content
+{
+		height:390px;
+	padding: 20px;
+	top:100px;
+	margin-left: -60px;
+	width: 500px;
+	background-color:white;
+}
+.slider-content .title
+{
+	width: 20%;
+	min-width: 165px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.slider-content .image
+{
+	width: 20%;
+	height: 15%;
+	min-height: 145px;
+	min-width: 145px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.slider-content .text
+{
+	height: 60%;
+	width: 400px;
+	min-height: 300px;
+	margin-top: 20px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
