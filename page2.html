@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Book Now | Zostel</title>
+	<link rel="stylesheet" href="css/book.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<link rel="stylesheet" href="css/datepicker.css">
+	<link rel="stylesheet" href="css/font-awesome.css">
+		<link rel="stylesheet" href="css/tip-darkgray.css">
+	
+</head>
+<body>
+	<div class="booking-portal">
+		<div class="booking-form">
+			<form role="form">
+				<div class="form-group">
+					<label>Country</label>
+					<select class="form-control">
+						<option>India</option>
+					</select>
+				</div>
+				<div class="form-group">
+					<label>City</label>
+					<select class="form-control">
+						<option>Choose a city or property</option>
+						<option>Jaipur</option>
+						<option>Jodhpur</option>
+					</select>
+				</div>
+			  	<div class="form-group">
+			  		<div class="dates">
+			  			<label >Check-in</label>
+						<input type="text" class="span2" value="" id="dpd1" >
+					</div>
+					<div class="dates">
+						<label >Check-out</label>
+		            	<input type="text" class="span2" value="" id="dpd2" >
+		        	</div>
+		        </div>
+		        <div class="form-group">
+					<label>Currency</label>
+					<select class="form-control">
+						<option>Choose your currency</option>
+						<option value="AUD">Australian Dollar</option><option value="GBP">British Pound</option><option value="CAD">Canadian Dollar</option><option value="EUR">Euro</option><option value="USD">US Dollar</option><option value="">----------</option>  <option value="ALL">Albanian Lek</option>  <option value="DZD">Algerian Dinar</option>  <option value="ARS">Argentine Peso</option>  <option value="AMD">Armenian Dram</option>  <option value="AUD">Australian Dollar</option>  <option value="AZN">Azerbaijan New Manat</option>  <option value="BSD">Bahamian Dollar</option>  <option value="BHD">Bahraini Dinar</option>  <option value="BDT">Bangladeshi Taka</option>  <option value="BZD">Belize Dollar</option>  <option value="BOB">Bolivian Boliviano</option>  <option value="BRL">Brazilian Real</option>  <option value="GBP">British Pound</option>  <option value="BND">Brunei Dollar</option>  <option value="XOF">CFA Franc BCEAO</option>  <option value="XAF">CFA Franc BEAC</option>  <option value="XPF">CFP Franc</option>  <option value="KHR">Cambodian Riel</option>  <option value="CAD">Canadian Dollar</option>  <option value="CLP">Chilean Peso</option>  <option value="CNY">Chinese Yuan Renminbi</option>  <option value="COP">Colombian Peso</option>  <option value="KMF">Comoros Franc</option>  <option value="CRC">Costa Rican Colon</option>  <option value="HRK">Croatian Kuna</option>  <option value="CZK">Czech Koruna</option>  <option value="DKK">Danish Krone</option>  <option value="DJF">Djibouti Franc</option>  <option value="DOP">Dominican R. Peso</option>  <option value="XCD">East Caribbean Dollar</option>  <option value="EGP">Egyptian Pound</option>  <option value="EUR">Euro</option>  <option value="FJD">Fiji Dollar</option>  <option value="HNL">Honduran Lempira</option>  <option value="HKD">Hong Kong Dollar</option>  <option value="HUF">Hungarian Forint</option>  <option value="ISK">Iceland Krona</option>  <option value="INR">Indian Rupee</option>  <option value="IDR">Indonesian Rupiah</option>  <option value="ILS">Israeli New Shekel</option>  <option value="JPY">Japanese Yen</option>  <option value="JOD">Jordanian Dinar</option>  <option value="KZT">Kazakhstan Tenge</option>  <option value="KES">Kenyan Shilling</option>  <option value="KWD">Kuwaiti Dinar</option>  <option value="KGS">Kyrgyzstanian Som</option>  <option value="LAK">Lao Kip</option>  <option value="LVL">Latvian Lats</option>  <option value="LBP">Lebanese Pound</option>  <option value="LTL">Lithuanian Litas</option>  <option value="MYR">Malaysian Ringgit</option>  <option value="MRO">Mauritanian Ouguiya</option>  <option value="MUR">Mauritius Rupee</option>  <option value="MXN">Mexican Peso</option>  <option value="MNT">Mongolian Tugrik</option>  <option value="MAD">Moroccan Dirham</option>  <option value="NAD">Namibia Dollar</option>  <option value="NPR">Nepalese Rupee</option>  <option value="NZD">New Zealand Dollar</option>  <option value="NIO">Nicaraguan Cordoba Oro</option>  <option value="NOK">Norwegian Kroner</option>  <option value="OMR">Omani Rial</option>  <option value="PKR">Pakistan Rupee</option>  <option value="PGK">Papua New Guinea Kina</option>  <option value="PYG">Paraguayan Guarani</option>  <option value="PEN">Peruvian Nuevo Sol</option>  <option value="PHP">Philippine Peso</option>  <option value="PLN">Polish Zloty</option>  <option value="QAR">Qatari Rial</option>  <option value="RON">Romanian New Lei</option>  <option value="RUB">Russian Rouble</option>  <option value="RWF">Rwandan Franc</option>  <option value="WST">Samoan Tala</option>  <option value="SAR">Saudi Riyal</option>  <option value="SGD">Singapore Dollar</option>  <option value="SOS">Somali Shilling</option>  <option value="ZAR">South African Rand</option>  <option value="KRW">South-Korean Won</option>  <option value="LKR">Sri Lanka Rupee</option>  <option value="SZL">Swaziland Lilangeni</option>  <option value="SEK">Swedish Krona</option>  <option value="CHF">Swiss Franc</option>  <option value="TWD">Taiwan Dollar</option>  <option value="TZS">Tanzanian Shilling</option>  <option value="THB">Thai Baht</option>  <option value="TOP">Tonga Pa'anga</option>  <option value="TTD">Trinidad/Tobago Dollar</option>  <option value="TND">Tunisian Dinar</option>  <option value="TRY">Turkish Lira</option>  <option value="USD" selected="selected">US Dollar</option>  <option value="UGX">Uganda Shilling</option>  <option value="UAH">Ukraine Hryvnia</option>  <option value="UYU">Uruguayan Peso</option>  <option value="AED">Utd. Arab Emir. Dirham</option>  <option value="VUV">Vanuatu Vatu</option>  <option value="VEF">Venezuelan Bolivar</option>  <option value="VND">Vietnamese Dong</option>
+					</select>
+				</div>
+		       <div class="form-group">
+					<label>No. of Guests</label>
+					<select class="form-control">
+						<option>1</option>
+						<option>2</option>
+						<option>3</option>
+						<option>4</option>
+						<option>5</option>
+						<option>6</option>
+						<option>7</option>
+						<option>8</option>
+						<option>9+</option>
+					</select>
+				</div>
+			  	<button type="submit" class="btn btn-primary">Submit</button>
+			</form>
+		</div>
+		<div class = "search-results">
+			<div class = "item">
+				<img class = "thumb" src="images/test1.jpg">
+				<div class="details">
+					<h4> Zostel Jaipur Hostel </h4>
+					<p>18, Jai Ambey Colony, Opposite ESI Hospital</p>
+					<p>Zostel is located at the heart of Jaipur - center of the city that is only a stone’s throw away from the main historical and cultural attractions and is very well connected with public transport  <a href="#">More info</a></p>
+					<a class="tooltip_1 gap" title="wifi"><i class="fa fa-signal fa-2x" ></i></a>
+					<a class="tooltip_1 gap" title="Private Lockers"><i class="fa fa-lock fa-2x"></i></a>
+					<a class="tooltip_1 gap" title="Retaurant/Cafe"><i class="fa fa-coffee fa-2x"></i> </a>
+					<a class="tooltip_1 gap" title="Games/TV rooms"><i class="fa fa-gamepad fa-2x"></i> </a>
+					<a class="tooltip_1 gap" title="Luggage Storage"><i class="fa fa-briefcase fa-2x"></i> </a>
+					<a style="cursor:pointer; text-decoration:none" class="tooltip_1 gap" title="
+					<p style='color:red'> Not Available on <br/>
+					<table border='1'>
+					  <tr>
+					    <th>Day1</th>
+					    <th>Day2</th>
+					  </tr>
+					</table>
+					">Availibility</a>
+				</div>
+				
+			</div>
+			<div class = "item">
+				<img class = "thumb" src="images/test2.jpg">
+				<div class="details">
+					<h4> Zostel Jodhpur Hostel </h4>
+					<p>18, Jai Ambey Colony, Opposite ESI Hospital</p>
+					<p>Zostel is located at the heart of Jaipur - center of the city that is only a stone’s throw away from the main historical and cultural attractions and is very well connected with public transport  <a href="#">More info</a></p>
+					<a class="tooltip_1 gap" title="wifi"><i class="fa fa-signal fa-2x" ></i></a>
+					<a class="tooltip_1 gap" title="Private Lockers"><i class="fa fa-lock fa-2x"></i></a>
+					<a class="tooltip_1 gap" title="Retaurant/Cafe"><i class="fa fa-coffee fa-2x"></i> </a>
+					<a class="tooltip_1 gap" title="Games/TV rooms"><i class="fa fa-gamepad fa-2x"></i> </a>
+					<a class="tooltip_1 gap" title="Luggage Storage"><i class="fa fa-briefcase fa-2x"></i> </a>
+					<a style="cursor:pointer; text-decoration:none" class="tooltip_1 gap" title="
+					<p style='color:rgb(53,255,53)'> Available! <br/>
+					">Availibility</a>
+				</div>
+
+			</div>
+			<div class = "item">
+
+			</div>
+		</div>
+	</div>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script type="text/javascript" src="js/bootstrap-datepicker.js"></script>
+	<script type="text/javascript" src="js/jquery.poshytip.min.js"></script>
+	<script type="text/javascript" src="js/book.js"></script>
+</body>

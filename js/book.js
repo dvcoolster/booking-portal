@@ -1,6 +1,13 @@
 $(function(){
 		dates();
+		$('.tooltip_1').poshytip({
+			className: 'tip-darkgray',
+			bgImageFrameSize: 11,
+			showTimeout:1,
+			offsetX: -25
+		});
 });
+
 
 
 function dates()
@@ -32,11 +39,3 @@ function dates()
 		}).data('datepicker');
 }
 
-$('.bxslider').bxSlider({
-  mode: 'horizontal',
-  useCSS: false,
-  infiniteLoop: true,
-  auto:true,
-  slideWidth:470,
-  speed: 1000
-});
